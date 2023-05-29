@@ -22,7 +22,7 @@ const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 
 camera.position.z = 0;
-cube.position.z = 10;
+cube.position.z = -10;
 
 function animate() {
 	renderer.setAnimationLoop( function () {
